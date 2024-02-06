@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "poc-tfstate-poc-tom"
+    bucket = "pr-tfstate-platform-tgs"
     key    = "exampleterraform"
     region = "eu-west-1"
   }
